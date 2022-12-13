@@ -18,7 +18,7 @@ const reducer = (state,action) => {
       if(action.type === "RESET"){
         state = 1;
       }
-   
+     
       return state;
 }
 
@@ -96,3 +96,5 @@ const UseState = () => {
 }
 
 export default UseState
+
+// VIvek Shukla
